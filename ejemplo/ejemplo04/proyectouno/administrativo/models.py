@@ -32,6 +32,8 @@ class Estudiante(models.Model):
 
 
 class Modulo(models.Model):
+    class Meta:
+        verbose_name_plural = "Los Módulos"
     """
     """
     opciones_modulo = (
